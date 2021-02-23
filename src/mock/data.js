@@ -25,7 +25,7 @@ export const aboutData = {
     '專長是利用react框架，搭配express server、postgreSQL，打造包含前後端及資料庫的完整web app。',
   paragraphThree:
     '對我來說，把一開始的發想，從零開始，建造出完整作品，將想法實現，是身為前端工程師的一大成就感。',
-  resume: 'http://localhost:8000/Resume.pdf', // if no resume, the button will not show up
+  resume: 'https://yuwen-file.netlify.app/Resume_YuWen.pdf', // if no resume, the button will not show up
 }; //* *** change url after deployment */
 
 // PROJECTS DATA
