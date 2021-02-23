@@ -33,7 +33,7 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'Dieta_nutrition.png',
-    title: 'Dieta - 計算卡路里',
+    title: 'Dieta - 減重熱量規劃系統',
     info: '輸入資料，計算所需熱量，並透過本週減重結果來決定下週如何調整。',
     info2:
       '使用React.js框架設計出符合RWD的前端網站，利用RestfulAPI連接到Express Server。使用者密碼以bcrypt加密，儲存於PostgreSQL資料庫，利用knex與server相接。利用React-i18next達到多國語系功能。前端部署到Netlify，後端Server及資料庫部署到Heroku。',
@@ -54,7 +54,7 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'smart-computer_screenshot.png',
-    title: 'smartcomputer - 人臉偵測',
+    title: 'smartcomputer - 人臉偵測系統',
     info: '輸入.jpg結尾的圖片網址，系統會偵測人臉並將範圍框出。多人也適用。',
     info2:
       '使用React.js框架，搭配Express Server，利用RestfulAPI完成前後端相連。後端串接Clarifai API 達到偵測人臉功能，API key儲存於環境變數，不上傳github。使用者密碼利用bcrypt加密，儲存於PostgreSQL資料庫，以knex與server相接。',
