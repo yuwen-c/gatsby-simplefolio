@@ -10,6 +10,7 @@ import '../style/main.scss';
 export default () => {
   const { title, lang, description } = headData;
 
+  // metadata image
   const data = useStaticQuery(
     graphql`
       query metaImgQuery {
