@@ -5,6 +5,7 @@ export const headData = {
   title: 'yuwen | web developer', // e.g: 'Name | Developer'
   lang: 'zh', // e.g: en, es, fr, jp
   description: 'Welcome to my website', // e.g: Welcome to my website
+  metaImg: 'portfolio_cover.png',
 };
 
 // HERO DATA

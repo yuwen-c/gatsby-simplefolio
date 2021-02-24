@@ -1,35 +1,14 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
-import { useStaticQuery, graphql } from 'gatsby';
-
+import metaImgUrl from '../components/Image/metaImgUrl';
 import App from '../components/App';
 import { headData } from '../mock/data';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../style/main.scss';
 
 export default () => {
-  const { title, lang, description } = headData;
-
-  // metadata image
-  const data = useStaticQuery(
-    graphql`
-      query metaImgQuery {
-        images: allFile(filter: { relativePath: { eq: "portfolio_cover.png" } }) {
-          edges {
-            node {
-              childImageSharp {
-                fixed(width: 350) {
-                  ...GatsbyImageSharpFixed
-                }
-              }
-            }
-          }
-        }
-      }
-    `
-  );
-
-  const imageUrl = `https://yuwen-portfolio.netlify.app/${data.images.edges[0].node.childImageSharp.fixed.src}`;
+  const { title, lang, description, metaImg } = headData;
+  const imageUrl = `https://yuwen-portfolio.netlify.app${metaImgUrl(metaImg)}`;
 
   return (
     <>
