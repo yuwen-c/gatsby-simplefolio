@@ -66,7 +66,7 @@ export const projectsData = [
 
 // CONTACT DATA
 export const contactData = {
-  cta: 'I am looking for an potential opportunity!',
+  cta: 'I am looking for an opportunity!',
   btn: "Let's talk",
   email: 'yuwen.azulejos@gmail.com',
 };
