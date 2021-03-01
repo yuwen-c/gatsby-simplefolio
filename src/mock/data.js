@@ -54,10 +54,10 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'smart-computer_screenshot.png',
-    title: 'smartcomputer - 人臉偵測系統',
+    title: 'smartcomputer - AI人臉偵測系統',
     info: '輸入.jpg結尾的圖片網址，系統會偵測人臉並將範圍框出。多人也適用。',
     info2:
-      '使用React.js框架，搭配Express Server，利用RestfulAPI完成前後端相連。後端串接Clarifai API 達到偵測人臉功能，API key儲存於環境變數，不上傳github。使用者密碼利用bcrypt加密，儲存於PostgreSQL資料庫，以knex與server相接。',
+      '使用React.js框架，搭配Express Server，利用RestfulAPI完成前後端相連。後端串接Clarifai API 達到AI偵測人臉功能，API key儲存於環境變數，不上傳github。使用者密碼利用bcrypt加密，儲存於PostgreSQL資料庫，以knex與server相接。',
     url: 'https://yuwen-smartcomputer.netlify.app/',
     repo: 'https://github.com/yuwen-c/smartcomputer', // if no repo, the button will not show up
   },
