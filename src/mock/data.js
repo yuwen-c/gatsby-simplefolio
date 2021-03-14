@@ -21,10 +21,10 @@ export const heroData = {
 export const aboutData = {
   img: '2529_1.jpg',
   paragraphOne:
-    '雖然曾在不同領域間轉換人生跑道，但始終離不開語言。專利事務所10年經驗，也曾在貿易公司擔任採購、國貿——法律語言→銀行語言，還因為嗜好學了西班牙語——英文→西班牙文，之後對寫程式感到好奇，便從人類語言一頭栽進電腦語言的世界。',
-  paragraphTwo:
+    '對新事物好奇，喜歡從做中學習，行動力強。喜歡從不同角度看問題，追求不斷成長的人生。',
+  paragraphTwo: '自學程式的前端工程師，有十年專利背景。希望能夠加入不斷成長的團隊，一起進步。',
+  paragraphThree:
     '專長是利用react框架，搭配express server、postgreSQL，打造包含前後端及資料庫的完整single page web app。',
-  paragraphThree: '對我來說，從零開始，建造出完整作品，將想法實現，是身為網頁工程師的一大成就。',
   resume: 'https://yuwen-files.netlify.app/Resume_YuWen.pdf', // if no resume, the button will not show up
 }; //* *** change url after deployment */
 
