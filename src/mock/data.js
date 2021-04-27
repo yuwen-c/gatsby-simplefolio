@@ -38,7 +38,7 @@ export const projectsData = [
     info2:
       '使用React.js框架，搭配Express Server，利用RestfulAPI完成前後端相連。後端串接Clarifai API 達到AI偵測人臉功能，API key儲存於環境變數，不上傳github。使用者密碼利用bcrypt加密，儲存於PostgreSQL資料庫，以knex與server相接。',
     url: 'https://yuwen-smartcomputer.netlify.app/',
-    repo: 'https://github.com/yuwen-c/smartcomputer', // if no repo, the button will not show up
+    repo: 'https://github.com/yuwen-c/smartcomputer/blob/master/README_Mandarin.md', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
@@ -48,7 +48,7 @@ export const projectsData = [
     info2:
       '使用React.js框架設計出符合RWD的前端網站，利用RestfulAPI連接到Express Server。使用者密碼以bcrypt加密，儲存於PostgreSQL資料庫，利用knex與server相接。利用React-i18next達到多國語系功能。前端部署到Netlify，後端Server及資料庫部署到Heroku。',
     url: 'https://yuwen-dieta.netlify.app/',
-    repo: 'https://github.com/yuwen-c/dieta', // if no repo, the button will not show up
+    repo: 'https://github.com/yuwen-c/dieta/blob/master/README_Mandarin.md', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
@@ -59,7 +59,7 @@ export const projectsData = [
     info2:
       '使用React.js框架搭配tachyons設計出符合RWD的網站。利用Luxon即時抓取不同時區時間。網站部署到Netlify。',
     url: 'https://yuwen-worldtime-luxon.netlify.app/',
-    repo: 'https://github.com/yuwen-c/worldtime-luxon', // if no repo, the button will not show up
+    repo: 'https://github.com/yuwen-c/worldtime-luxon/blob/master/README_Mandarin.md', // if no repo, the button will not show up
   },
 ];
 
