@@ -32,6 +32,16 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
+    img: 'gatsby-blog.png',
+    title: 'yuwen-c - 個人部落格',
+    info: '使用Gatsby搭配graphQL打造的blog。',
+    info2:
+      '選擇Gatsby，因為他解決一般靜態網站使用者體驗不夠好，而SPA網站又不利於內容網站SEO的問題。',
+    url: 'https://yuwen-c.netlify.app/',
+    // repo: 'https://github.com/yuwen-c/demoda/blob/master/README.md', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
     img: 'demoda-screenshot.png',
     title: 'demoda - 時尚購物網',
     info: '使用者可登入、瀏覽商品，並將商品加入購物車。',
