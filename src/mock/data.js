@@ -22,7 +22,7 @@ export const aboutData = {
   img: '2529_1.jpg',
   paragraphOne: '對新事物好奇，喜歡學習，擅長收集、整理資訊，行動力強。',
   paragraphTwo:
-    '熟悉JavaScript ES6及React框架，了解Hooks、Redux，也有使用Node.js、Express.js的開發經驗，並熟悉git指令。',
+    '熟悉JavaScript ES6及React框架及Hooks，也有使用Node.js、Express.js建造後端、連接資料庫的開發經驗，熟悉git指令。',
   paragraphThree:
     '樂於和人合作、重視團隊氣氛，總是會站在不同角度看問題、試著理解對方的想法。欣賞規律、欣賞時間的累積，追求不斷成長的人生。',
   resume: 'https://yuwen-files.netlify.app/Resume_YuWen.pdf', // if no resume, the button will not show up
@@ -34,9 +34,8 @@ export const projectsData = [
     id: nanoid(),
     img: 'gatsby-blog.png',
     title: 'yuwen-c - 個人部落格',
-    info: '使用Gatsby搭配graphQL打造的blog。',
-    info2:
-      '選擇Gatsby，因為他解決一般靜態網站使用者體驗不夠好，而SPA網站又不利於內容網站SEO的問題。',
+    info: '使用Gatsby框架打造的部落格，下載快速、體驗佳，也解決了一般SPA網站對SEO不友善的問題。',
+    info2: '搭配GraphQL查詢資料，避免無預期的資料格式。使用styled-components，避免樣式全域污染。',
     url: 'https://yuwen-c.netlify.app/',
     // repo: 'https://github.com/yuwen-c/demoda/blob/master/README.md', // if no repo, the button will not show up
   },
@@ -56,7 +55,7 @@ export const projectsData = [
     title: 'smartcomputer - AI人臉偵測系統',
     info: '輸入.jpg結尾的圖片網址，系統會偵測人臉並將範圍框出。多人也適用。',
     info2:
-      '串接Clarifai API 做到 AI 偵測人臉功能，並將API key儲存於環境變數，不上傳github，優化安全性。使用React.js框架，搭配Express Server，利用RestfulAPI完成前後端相連。使用PostgreSQL構建資料庫，儲存bcrypt加密密碼，並以knex與後端相接。前端部署到Netlify，後端及PostgreSQL資料庫部署到Heroku。',
+      '利用 gRPC 串接第三方API做到 AI 偵測人臉功能。將API key儲存於環境變數，優化安全性。使用React.js框架，搭配Express Server，利用RestfulAPI完成前後端相連。使用PostgreSQL構建資料庫，儲存bcrypt加密密碼，並以knex與後端相接。前端部署到Netlify，後端及PostgreSQL資料庫部署到Heroku。',
     url: 'https://yuwen-smartcomputer.netlify.app/',
     repo: 'https://github.com/yuwen-c/smartcomputer/blob/master/README_Mandarin.md', // if no repo, the button will not show up
   },
