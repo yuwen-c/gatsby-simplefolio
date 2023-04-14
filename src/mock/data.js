@@ -43,9 +43,9 @@ export const projectsData = [
     id: nanoid(),
     img: 'demoda-screenshot.png',
     title: 'demoda - 時尚購物網',
-    info: '使用者可登入、瀏覽商品，並將商品加入購物車。',
+    info: '使用者可瀏覽商品，並將商品加入購物車；利用Firebase做到第三方登入，及Firestore儲存資料，提升安全性。',
     info2:
-      '使用React.js框架及React Hooks，邏輯拆分更清楚，增加可讀性。以Redux作狀態管理，及Redux-Thunk處理非同步邏輯，也利用Reselect來避免觸發多餘 render，並使用Firebase authentication做到第三方登入，提升使用者體驗。',
+      '使用React Hooks，將元件與邏輯拆分，增加可讀性、好維護。以Redux作狀態管理，及Redux-Thunk處理非同步邏輯，用Reselect來避免多餘 render。',
     url: 'https://yuwen-demoda.netlify.app/',
     repo: 'https://github.com/yuwen-c/demoda/blob/master/README.md', // if no repo, the button will not show up
   },
@@ -55,7 +55,7 @@ export const projectsData = [
     title: 'smartcomputer - AI人臉偵測系統',
     info: '輸入.jpg結尾的圖片網址，系統會偵測人臉並將範圍框出。多人也適用。',
     info2:
-      '利用 gRPC 串接第三方API做到 AI 偵測人臉功能。將API key儲存於環境變數，優化安全性。使用React.js框架，搭配Express Server，利用RestfulAPI完成前後端相連。使用PostgreSQL構建資料庫，儲存bcrypt加密密碼，並以knex與後端相接。前端部署到Netlify，後端及PostgreSQL資料庫部署到Heroku。',
+      '利用 gRPC 串接第三方服務，簡化開發，增加傳輸效率。將API token儲存於環境變數，不上傳github，優化安全性。搭配Express Server，利用RestfulAPI完成前後端相連。使用PostgreSQL構建資料庫，儲存hash加鹽密碼，提升資安，並以knex query builder與後端相接，兼顧開發彈性與安全性。',
     url: 'https://yuwen-smartcomputer.netlify.app/',
     repo: 'https://github.com/yuwen-c/smartcomputer/blob/master/README_Mandarin.md', // if no repo, the button will not show up
   },
@@ -63,9 +63,9 @@ export const projectsData = [
     id: nanoid(),
     img: 'Dieta_nutrition.png',
     title: 'Dieta - 減重熱量規劃系統',
-    info: '從自身減重經驗發想，解決重複計算所需熱量的不便。使用者輸入資料，計算所需熱量，並透過本週減重結果來決定下週如何調整。',
+    info: '從自身減重經驗發想，解決重複計算熱量的不便。使用者輸入資料，計算所需熱量，並透過本週數據來決定下週調整方向。',
     info2:
-      '實際上線一個月內達到使用人數31人。使用者每週回訪計算時，可從資料庫叫出上週資料，再加以編輯，提升體驗。表格也做成RWD響應式，方便使用者在手機查閱。使用React-i18next做出中英雙語系功能。',
+      '實際上線一個月內達到使用人數31人。使用者每週回訪時，可叫出歷史資料再加以編輯；另外還提供先試用，再註冊的功能，提升使用意願。支援RWD，提升使用者體驗。使用i18n提供多語系功能。前端自動化部署到Netlify，後端及PostgreSQL資料庫部署到Heroku。',
     url: 'https://yuwen-dieta.netlify.app/',
     repo: 'https://github.com/yuwen-c/dieta/blob/master/README_Mandarin.md', // if no repo, the button will not show up
   },
@@ -101,11 +101,11 @@ export const footerData = {
     //   name: 'codepen',
     //   url: '',
     // },
-    {
-      id: nanoid(),
-      name: 'linkedin',
-      url: 'https://www.linkedin.com/in/yu-wen-chiu/',
-    },
+    // {
+    //   id: nanoid(),
+    //   name: 'linkedin',
+    //   url: 'https://www.linkedin.com/in/yu-wen-chiu/',
+    // },
     {
       id: nanoid(),
       name: 'github',
